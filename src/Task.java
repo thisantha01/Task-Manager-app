@@ -23,6 +23,19 @@ public class Task {
         return isCompleted;
     }
 
+    //setters
+    public void setTitle(String title){
+        this.title = title;
+    }
+
+    public void setDaysToFinish(int daysToFinish){
+        this.daysToFinish = daysToFinish;
+    }
+
+    public void setCompleted(boolean completed){
+        this.isCompleted= completed;
+    }
+
 
 
 }
